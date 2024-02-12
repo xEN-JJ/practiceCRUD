@@ -5,9 +5,9 @@ package practicecrud;
  * @author JJ
  */
 public class users {
-    
+
     int id;
-    String username, password, email, type;
+    String username, password, email, type, fullname, lname, fname, mname;
 
     public users(int id, String username, String password, String email, String type) {
         this.id = id;
@@ -15,6 +15,38 @@ public class users {
         this.password = password;
         this.email = email;
         this.type = type;
+    }
+
+    public String getFullname() {
+        return fullname;
+    }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
+    }
+
+    public String getLname() {
+        return lname;
+    }
+
+    public void setLname(String lname) {
+        this.lname = lname;
+    }
+
+    public String getFname() {
+        return fname;
+    }
+
+    public void setFname(String fname) {
+        this.fname = fname;
+    }
+
+    public String getMname() {
+        return mname;
+    }
+
+    public void setMname(String mname) {
+        this.mname = mname;
     }
 
     public int getId() {
@@ -56,6 +88,5 @@ public class users {
     public void setType(String type) {
         this.type = type;
     }
-    
-    
+
 }

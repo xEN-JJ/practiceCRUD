@@ -16,7 +16,7 @@ public class PracticeCRUD extends Application {
     public void start(Stage stage) throws Exception {
 
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("table.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/practicecrud/fxml/table.fxml"));
 
             Scene scene = new Scene(root);
 

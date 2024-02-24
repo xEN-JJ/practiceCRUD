@@ -11,15 +11,20 @@ import javafx.stage.Stage;
  * @author JJ
  */
 public class PracticeCRUD extends Application {
-    
+
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("table.fxml"));
-        
-        Scene scene = new Scene(root);
-        
-        stage.setScene(scene);
-        stage.show();
+
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("table.fxml"));
+
+            Scene scene = new Scene(root);
+
+            stage.setScene(scene);
+            stage.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -28,5 +33,5 @@ public class PracticeCRUD extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }

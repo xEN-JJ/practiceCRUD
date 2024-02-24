@@ -1,6 +1,7 @@
-package practicecrud;
+package practicecrud.database;
 
 
+import practicecrud.classDATA.users;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import javafx.collections.FXCollections;

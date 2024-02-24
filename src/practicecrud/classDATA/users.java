@@ -1,4 +1,4 @@
-package practicecrud;
+package practicecrud.classDATA;
 
 /**
  *

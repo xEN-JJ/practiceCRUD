@@ -1,5 +1,6 @@
-package practicecrud;
+package practicecrud.controller;
 
+import practicecrud.classDATA.users;
 import javafx.scene.input.MouseEvent;
 import java.sql.Connection;
 import java.net.URL;
@@ -14,6 +15,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javax.swing.JOptionPane;
+import practicecrud.database.mysqlconnect;
 
 
 /**
